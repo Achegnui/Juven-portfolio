@@ -16,7 +16,7 @@ const Home = () => {
             <span className="text-accent">Achegnui Juven</span>
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80">
-            I exccel at crafting various digital experiences and I am proficient
+            I excel at crafting various digital experiences and I am proficient
             in various programming languages and technologies
           </p>
           {/* button and socials */}
