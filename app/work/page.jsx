@@ -25,32 +25,29 @@ const projects = [
     category: "frontend",
     title: "project 1",
     description:
-      "Built amazing frontend web projects with html, css and javascript",
+      "Built amazing frontend web projects with react js and tailwind css with GGIT as an exxample",
     stack: [
       {
-        name: "HTML 5",
+        name: "React js",
       },
       {
-        name: "CSS 3",
-      },
-      {
-        name: "JavaScript",
+        name: "Tailwind CSS",
       },
     ],
-    image: "/assets/work/thumb1.png",
-    live: "",
+    image: "/assets/work/ggitech.png",
+    live: "https://ggitech.org",
     github: "",
   },
 
   {
     num: "02",
-    category: "Fullstack",
+    category: "frontend",
     title: "project 2",
     description:
-      "Built amazing frontend web projects with html, css and javascript",
+      "Built amazing frontend web projects with react js and tailwind css with Amazon Associate as an example",
     stack: [
       {
-        name: "Next.js",
+        name: "React js",
       },
       {
         name: "Tailwind CSS",
@@ -59,28 +56,48 @@ const projects = [
         name: "JavaScript",
       },
     ],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    image: "/assets/work/associate.png",
+    live: "https://amazon-associate-website.vercel.app/",
+    github: "https://github.com/Achegnui/amazon-associate-website",
   },
+
   {
     num: "03",
     category: "frontend",
     title: "project 3",
     description:
-      "Built amazing frontend web projects with html, css and javascript",
+      "Built amazing frontend mobile projects with React Native and css",
     stack: [
       {
-        name: "HTML 5",
+        name: "React Native",
       },
       {
-        name: "Tailwind.css",
+        name: "css",
       },
     ],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/mobile product.png",
     live: "",
+    github: "https://github.com/Achegnui/amazon-associate-app",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "project 4",
+    description: "Built amazing frontend mobile projects with React js and css",
+    stack: [
+      {
+        name: "React js",
+      },
+      {
+        name: "css",
+      },
+    ],
+    image: "/assets/work/girlforce.png",
+    live: "https://girlforce.netlify.app/",
     github: "",
   },
+
+  //
 ];
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
@@ -170,10 +187,10 @@ const Work = () => {
                     {/* overlay */}
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                     {/* image */}
-                    <div className="relative w-full h-full">
+                    <div className="relative w-full h-full rounded-2xl">
                       <Image
                         src={project.image}
-                        className="object-cover w-full h-full"
+                        className="object-cover w-full h-full rounded-2xl"
                         width={600}
                         height={600}
                         alt=""

@@ -2,6 +2,7 @@
 
 import { Description } from "@radix-ui/react-dialog";
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 //about data
 const about = {
@@ -144,6 +145,10 @@ const skills = {
     {
       icon: <SiTailwindcss />,
       name: "Tailwind CSS",
+    },
+    {
+      icon: <TbBrandReactNative />,
+      name: "React Native",
     },
   ],
 };
